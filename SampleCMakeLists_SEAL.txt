@@ -1,0 +1,13 @@
+# Copyright (c) Microsoft Corporation. All rights reserved.
+# Licensed under the MIT license.
+
+cmake_minimum_required(VERSION 3.12)
+
+project(SEALCKKSEquation VERSION 3.4.4 LANGUAGES CXX)
+
+add_executable(SEALCKKSEquation sample.cpp)
+# Import Microsoft SEAL
+find_package(SEAL 3.4.4)
+
+# Link Microsoft SEAL
+target_link_libraries(SEALCKKSEquation SEAL::seal)
