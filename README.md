@@ -1,7 +1,4 @@
 # Homomorphic-Encryption
-Few references to successfully compute the arbitrary equation for the project
-https://gitlab.com/palisade/palisade-release/-/wikis/home
-https://github.com/dnat112/SEAL
-https://github.com/dnat112/SEAL/tree/master/native/examples
-https://github.com/homenc/HElib/tree/master/examples
-https://github.com/ancarey/OpenSourceFHE
+Although Homomorphic encryption (HE) is a new domain of cryptography, it has come long way demonstrating the enhanced mode of information protection by allowing arbitrary computations on encrypted data. With the rapid transformation of IT practices into cloud-based solutions the need for FHE like schemes have advanced in a pace that would enable users to develop secure cloud computation over sensitive data. The first FHE scheme was proposed by Craig Gentry in 2009, and although it was not a practical implementation, his theory laid the foundations to many schemes that exists today. The basic idea in Fully Homomorphic research is the creation of a library that allows users consume the technology securely without much knowledge of the underlying mathematical complexitiesof FHE. 
+In this study, we will present the concepts behind FHE, together with the introduction of three open-source FHE libraries, in order to understand the details of its functions and capabilities offered in each. Our implementation begins with FHE Framework setup, the minimum requirements to accomplish a successful evaluation procedure for homomorphic encryption scheme, results extraction etc.,
+
